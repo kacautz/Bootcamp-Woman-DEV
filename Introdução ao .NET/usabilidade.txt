@@ -1,0 +1,4 @@
+USABILIDADE DA INFORMAÇÃO 
+
+- Informação é vital para todas as pessoas, e principalmente, para as organizações. 
+- Interface é o meio pelo qual o usuário/cliente se comunica com o sistema para realizar suas tarefas - Para satisfazer as necessidades do usuário/cliente de forma amigável, o seu processo de desenvolvimento deve ser centrado no usuário. 

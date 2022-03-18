@@ -1,0 +1,83 @@
+INTRODUÇÃO AO ECOSSISTEMA .NET E SUA DOCUMENTAÇÃO - Carolina Louzada
+
+Aula 01 - Visão geral do .NET
+
+ > .NET - Plataforma de desenvolvimento com diversas ferramentas, linguagens de programação e bibliotecas que permitem o desenvolvimento de diversos tipos de aplicações 
+  	O .NET Foundation dá suporte ao desenvolvimento do .NET
+  - Gratuita e de software livre
+  - plataforma cruzada - pode ser utilizada em diferentes tipos de sistemas
+  - aplicações: web, mobile, desktop, microservices, cloud, machine learning, jogos, internet das coisas
+
+ > ASP.NET - Framework que estende .NET para a criação de web apps.
+ > .NET Standard - especificação das APIs que são comuns às implementações .NET
+ > Bibliotecas para desenvolvimento e execução de aplicações .NET
+   SDK - software developed kit
+   Runtime
+ >> NUGET: gerenciador de pacotes
+ >> Acesso a dados: 
+    ORM - Entity Framework Core
+    LINQ - consulta integrada à linguagem
+ 
+O que é .NET Framework? Ambiente de desenvolvimento e execução focado em Windows
+> Common language runtime + .NET Class Library
+   Gerenciamento de execução dos apps |    Biblioteca p reutilização de códigos
+Características:
+ Gerenciamento de memória
+ Sistema de tipos comum > Tipos definidos pelo próprio framework
+ Grande e específicas bibliotecas de classes utilitárias (ASP.NET|ADO.NET|WCF|WPF)
+ Interoperabilidade entre linguagens
+ Compatibilidade de versões
+ Uso do .NET Standard
+
+.NET Core e .NET
+ > Plataforma cruzada: Linux, windows, mac os
+ > Produzir um produto com base de código única
+ > Open Source - MIT e Apache 2
+ > .NET = .NET Core + .NET Framework + Xamarin + Mono
+ > Aquisição facilitada a partir do NUGET
+ > Modular e com melhor desempenho 
+ > Ciclos de lançamentos mais rápidos
+
+ASP.NET Core
+ > Construções de aplicações web, IoT apps, e backend p mobile
+ > Funcionalidades para construção de aplicações com renderização no servidor
+   * USO DO MVC > ASP.NET Core MVC
+      Model: Representa o estado da aplicação, encapsulando lógica de negócio
+      View: Responsável por apresentar dados através de interface
+      Controller: Componentes que lidam com a interação do usuário a partir da View 	e trabalham com a model para apresentar respostas ao usuário
+      Model Binding: Mapeamento automático de dados de requisições HTTP para 	parâmetros de métodos de ação
+      Model Validation: Validação automática no lado do cliente e servidor
+ *Razor Pages e Razor Markup:padrão baseado em páginas, serve p construir aplicações
+ 	Modelo baseado em páginas - simplificado
+	Interface e lógica de negócio são separados, mas dentro da página
+	Sintaxe de marcação para inserir código baseado em .NET em páginas WEB = 	Razor markup + C# + HTML
+ *Tag Helpers
+	Permite que o código do lado do servidor participe da criação e renderização 	de elementos HTML em arquivos Razor
+	Experiência de desenvolvimento com HTML mais amigável
+	Intellisense no ambiente para sintaxe HTML e Razor
+	Manutenção do código usando informações do servidor
+ *Blazor
+	Framework para construir apps do lado do cliente, que são executados direto 	no navegado com WASM usando C#
+	Uso da interoperabilidade com Javascript p lidar com manipulação da DOM e 	chamadas de API
+
+>> Lucas Neves
+
+Diferenças entre .NET Framework, Core e 5.0
+
+>> .NET Framework é específico para windows, enquanto os outros, não.
+   .NET Standard - Biblioteca de classe base
+>> .NET Core: Para windows, MacOS e Linux
+>> .NET 5: Ferramenta unificada, podendo ser usada para IOT, Mobile, Games, Cloud, WEB, Desktop e AI.
+
+>> Framework - Uma espécie de caixa de ferramentas que pode ser utilizada livremente. (Biblioteca de códigos)
+>> Runtime - Compila o código para a linguagem do computador
+
+>>> CLI DO .NET
+ 	CLI: Command-Line Interface/ Interface de linha de comando
+	O CLI processa os comandos que serão enviados para um programa de computador na forma de linhas de texto
+
+na prática:
+dotnet --version
+dotnet --help
+dotnet new - cria um projeto dotnet via CMD 
+dotnet new --list --tag web - mostra apenas comandos c tags web

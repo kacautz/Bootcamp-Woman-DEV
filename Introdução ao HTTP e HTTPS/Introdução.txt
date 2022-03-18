@@ -1,0 +1,8 @@
+INTRODUÇÃO AO HTTP/HTTPS - JULIANA MASCARENHAS
+
+ > Protocolo HTTP - HyperText Transfer Protocol - É UM PROTOCOLO DE COMUNICAÇÃO E TRANSFERÊNCIA DE DADOS PELA WEB
+ Definido pelos RFCs 1945 e 2116
+ Protocolo de comunicação - rege e estrutura as mensagens
+ Browser - Implementa o cliente HTTP
+ Servidor - Host objetos web
+ 
