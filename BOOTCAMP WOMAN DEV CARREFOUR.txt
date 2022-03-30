@@ -1,0 +1,445 @@
+////////////// BOOTCAMP BANCO CARREFOUR WOMAN DEVELOPER ///////////
+
+Pensamento Computacional - aula 01 - Professora: Juliana Mascarenhas
+> Refere-se ao processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador. (ou seja, passo a passo para formulaão e resolução de problemas)
+
+PILARES:
+ DECOMPOSIÇÃO: Dividir um problema complexo em subproblemas
+ RECONHECIMENTO DE PADRÕES: Identificar padrões ou tendências - pode ocorrer por similaridades ou diferenças entre os problemas
+ Ex: queda da bolsa = venda de ações/ bolsa sobe = compra de ações
+ ABSTRAÇÃO: Extrapolar o conceito do problema para uma forma generalista > pegar um cenário e o tornar generalista, como uma fórmula matemática, uma representação 
+ DESIGN DE ALGORITMOS: AUTOMATIZAR > Definir passo a passo a solução do problema // Input -- operações -- Output
+
+Além deles. é necessário que é necessário aperfUeiçoar: definindodo a solução, testando e aperfeiçoando a solução encontrada
+
+QUANTO MAIS EFICIENTE FOR SEU ALGORITMO, MENOS RECURSOS VC VAI UTILIZAR, MENOS TEMPO E IMPLEMENTAÇÃO + RÁPIDA COM CUSTO MENOR.
+
+AULA 02: RACIOCINIO LÓGICO
+
+INDUÇÃO: DADO UM FENÔMENO QUE ESTOU OBSERVANDO, VOU DETERMINAR LEIS E TEORIAS BASEADO NO QUE EU VI/EXPERIMENTEI - CIENCIA EXPERIMENTAL
+DEDUÇÃO: INVERSA A INDUÇÃO, DADO UMA LEI OU TEORIA, IREI REALIZAR DEDUÇÕES BASEADAS NAQUELA LEI
+ABDUÇÃO: UTILIZA CONCLUSÕES PARA CRIAR PREMISSAS, EX: A GRAMA ESTÁ MOLHADA, LOGO DEVE ESTAR CHOVENDO
+
+Estratégia
+>>Análise: Quebrar e determinar partes menores e gerenciáveis
+>>Síntese: Combinar elementos recompondo o problema original
+////////////ORDEM DE EXECUÇÃO
+> Pode ser sequêncial ou paralelo
+sequêncial: ordem de execução menor
+paralelo: tarefas podem ser executadas concomitantemente (+ eficiente)
+
+Como decompor? Entenda o problema, quais aspectos são fundamentais para que consiga resolvê-lo?/ Agregue o resultado dos problemase forneça a funcionalidade
+ex: cozinhar
+identificar os ingredientes
+determinar as etapas (sequêncial ou paralelo)
+Executar cada etapa
+agregar os ingredientes para finalizar
+Ex: criar um app
+Finalidade do app
+Interface
+Funcionalidades - o que vai oferecer p o cliente
+Pré-requisitos - quais os aspectos q eu preciso para que funcione
+
+////////// RECONHECIMENTO DE PADRÕES
+
+-> Determinar similaridades e diferenças
+Ex: Fotos de redes sociais > possuem metadatas associados > utilizam técnicas de compressão p diminuir o tamanho do objeto > salva no servidor de dados /// usado por diversas redes sociais ///
+Ex: Compressão de dados 
+
+Por que determinar padrões? para generalizar, com o objetivo de obter resolução para problemas diferentes
+
+> Classificação de objetos
+Como o computador reconhece padrões?
+Pelo ser humano: grau de similaridade conhecido x desconhecido
+comparação.
+
+->representação de atributos> aprendizado - conceito associado ao objeto > armazenagem de dados e regras de decisão.
+
+///////// ABSTRAÇÃO
+>ABSTRAIR: Observar, um ou mais elementos, avaliando características de forma individual
+>ABSTRAÇÃO: Processo intelectual de isolamento de um objeto da realidade
+>GENERALIZAR: Tornar geral, amplo. 
+
+--> Pontos essenciais para classificação de dados:
+      > Generalizando e deixando os detalhes de lado, assim obtendo uma representação.
+
+Representação de dados
+
+características
+
+Nome                         trabalho
+matrícula                    filhos
+endereço                     programa fav
+campus
+curso
+telefone
+email
+
+os essenciais devem ser focados, isso é abstração.
+
+PYTHON, JAVA E C++ ::::::: Baseados em abstração
+Máquina de estado finito
+
+ALGORITMOS - O computador recebe, manipula e armazena dados.
+--> Sequência de passos c objetivo definido / Execução de tarefas específicas / Conjunto de operações que resultam em uma sucessão finita de ações.
+EX: Preparar um sanduíche
+Cortar o pão ao meio> passar manteiga na parte interna de cada corte do pão > etccccc
+
+COMO CONSTRUIR?
+   Compreender o problema, focando em dados específicos
+   Definir os dados de entrada
+   Definir o processamento, quais calulos, restrições etc
+   Definir dados de saída
+   Utilizar um método de construção
+   Teste e diagnóstico
+CONSTRUÇÃO DE ALGORITMO
+   Narrativa - Utiliza uma linguaguem natural/diversas interpretações possíveis e não possui conceitos novos
+   Fluxograma - Utilização de símbolos pré-definidos / conhecimento prévio da estrutura e símbolos / simples entendimento
+   Pseudocódigo - Portugol / passos a serem seguidos com regras definidas
+
+COMPUTIONAL THIKING - Fundamentos da programação de computadores - editora pearson 
+
+
+//////////////////////////// LÓGICA DE PROGRAMAÇÃO ///////////////////
+
+
+>>O que é Lógica? Coerência de raciocínio, de ideias - Sequência coerente, regular e necessária de acontecimentos, coisas.
+>> Lógica de programação: contextualizar a lógica na programação de computadores, buscando a melhor sequência de ações para solucionar um problema
+>>> METACOGNIÇÃO: Pensar como você pensa.
+>>Abstração: a habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando características menos importantes ou acidentais.
+Algoritmo> sequencia de passos w resolve um problema
+
+Pseudocódigo: Uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples.
+
+// AULA 3 - INTRODUÇÃO À LÓGICA - Fluxograma, variáveis e constantes
+
+Fluxograma: Uma ferramenta utilizada para representar graficamente o algoritmo, isto é, a sequência lógica e coerente do fluxo de dados.
+
+ex: início=> entrada de dados => processamento => saida de dados => fim.
+
+início => real nota1, nota2, nota3, nota4 => entrada nota1 => entrada nota 2=> entrada nota 3=> entrada nota4=> media = (nota1+nota2+nota3+nota4)/4 => saída média => fim. ////// Início => nota1, nota2, nota3, nota4 => media = (nota1+nota2+nota3+nota4)/4 => ("sua média é: ", media)=> fim.
+
+>>Variáveis e constantes:  
+
+Uma variável é um objeto ou posição, frequentemente localizada na memória, capaz de reter e representar um valor ou expressão // Um espaço na memória do computador destinado a um dado que é alterado durante a execução do algoritmo.
+
+Declaração de variáveis 
+
+inicio
+declara nota1: num
+declara nota2: num
+declara media: num
+leia (nota1)
+leia (nota2)
+media=(nota1+nota2)/2
+imprimir(media)
+fim
+
+As variáveis e as constantes podem ser classificadas em quatro tipos, numéricas, caracteres, alfanuméricas ou lógicas.
+
+> Constantes são valores imutáveis e não alterados durante a vida útil do programa.
+ex> inicio
+    declara pi=3,14 (pi é uma constante, sempre terá o mesmo valor)
+    declara raio: num
+    fim
+
+>> Expressões aritméticas: São expressões que utilizam operadores aritméticos. ex: 50+50= 100
+
+operadores:
+soma +
+subtração -
+multiplicação *
+divisão /
+potenciação ^
+porcentagem %
+
+Expressões literais: São expressões com constantes/variáveis que tem como resultado valores literais. Utilizaremos na atribuição de valor para uma variável ou constante
+
+ex: nome= "José da Silva"
+    nome <- "José da Silva" --- em pseudocódigo
+    media=(nota1+nota2+nota3+nota4)/4
+
+Variáveis      Comando de atribuição      procedimento
+A  B  C         A=2 / B=A+3 / C=A+B        Armazenar o valor de 2 na                                            variável A / Somar o valor                                     de A(2) com 3 e armazenam em B(5)
+                                    Somar o valor de A(2) e B(5) e                                             armazenar em C(7)
+
+
+Expressões relacionais: compostas por outras expressões ou variáveis numéricas com operadores relacionais. As expressões relacionais retornam valores lógicos (V ou F)
+
+Símbolo   nome do operador   exemplo   significado
+>          maior que          x>y      x é maior q y?
+>=         maior ou igual     x>=y     x é maior ou igual a y?
+<          menor que          x<y      x é menor que y?
+<=         menor ou igual     x<=y     x é menor ou igual a y?
+==         igualdade          x==y     x é igual a y?
+!=         diferente de       x!=y     x é diferente de y?
+
+
+>> Tomadas de decisão - Quando escrevemos programas, geralmente ocorre a necessidade de decidir o que fazer dependendo de alguma condição encontrada durante a execução
+>> Concatenação - unir o conteúdo de duas strings 
+
+//// AULA 04 - ESTRUTURA DE REPETIÇÃO 
+
+é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma confição ou com um contador
+
+inicio
+int numero, limite
+numero =1
+limite= 10
+numero <= limite 
+  enquanto saída"contagem atual: " & número
+  numero = numero +1
+fim
+
+Se: if 
+Senao se: else if
+Senao: else
+
+////////////// Introdução ao Portugol - Professor: Denilson Bonatti
+
+> Linguagem de programação é uma escrita formal que especifica um conjunto de instruções e regras usado para gerar programas <
+
+Linguagem de alto nível: a sintaxe se aproxima mais da nossa linguagem e se distanciam da linguagem de máquina. ex: pyhton, c#, c++, etc
+Linguagem de baixo nível: se aproxima mais da linguagem de máquina.
+
+inteiro contador, limite, resultado
+contador = 0
+limite = 10
+faca
+{
+	resultado = 9*contador
+	escreva ("9 x" + contador + "=" + resultado + "\n")
+	contador ++
+  } enquanto (contador <= limite)
+}
+
+> Compiladas: o código é executado diretamente pelo sistema operacional ou pelo processador, após ser traduzido por meio de um processo de compilação
+> Interpretadas: o código fonte é executado por um programa de computador chamado interpretador, que em seguids é executado pelo sistema operacional ou processador
+
+cadeia - varios caracteres
+
+Condicionais - 
+
+Se: a condição a ser testada entre parênteses e as instruções que devem ser executadas entre chaves caso o desvio seja verdadeiro;
+
+ex.: se (media>=7) {
+         escreva ("Parabéns! Você foi aprovado)
+     } 
+Senao: Se a condição for falsa, um conjunto de comandos será executado
+
+ex: se (media>=7) {
+         escreva ("Parabéns! Você foi aprovado)
+     } 
+     senao {
+	escreva ("Infelizmente, você foi reprovado")
+
+>> Utilize comentários no código <<
+ >> Caso: comando similar ao se e senão, reduz a complexidade na escolha de diversas opções. Apesar de suas similaridades com o se, ele possui algumas diferenças. Meste comando, não é possível o uso de operadores lógicos, ele apenas trabalha com valores definidos
+
+>> Laços de repetição - é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou contador.
+
+inteiro contador, limite, resultado
+contador = 0
+limite = 10
+faca {
+    resultado = 9*contador
+    escreva ("9 x " + contador + "=" + resultado + "\n")
+    contador ++
+} enquanto (contador <= limite)
+
+>>> Matrizes e vetores //// aula final
+
+Uma matriz  é uma coleção de variáveis do mesmo tipo, acessíveis com um único nome e armazenados contiguamente na memória.
+A individualização de cada variável de um vetor é feita através do uso de índices
+os vetores são matrizes de uma só dimensão
+
+***************UTILIZADO PARA CRIAÇÃO DE ÍNDICES****************
+ex.:
+
+cadeia vetor [5]; // declara um vetor de 5 posições
+cadeia matriz [5] [3]; // declara uma matriz de 5 linhas e 3 colunas
+
+ex
+cadeia frutas [4];
+frutas [0] = "maçã"
+frutas [1] = "melão"
+frutas [2] = "uva"
+frutas [3] = "jaca"
+escreva (frutas[2])
+
+ex
+inteiro contador =0
+cadeia cesta [][] = {{"maçã","100"}, {"melão","200"}, {"uva","300"}}
+ex do ex
+faca { escreva ("Produto" + cesta [contador][0] + "quantidade"  + cesta [contador][1] +"\n")
+contador++
+
+} enquanto (contador>=3)
+
+escreva ("Produto: ")
+escreva (cesta [0][0])
+escreva ("quantidade")
+escreva (cesta [0][1])
+
+////////////// INTRODUÇÃO AO GIT E AO GITHUB ///////////////
+
+O git surgiu para solucionar uma dor de seu criador.
+ > O git é diferente do GitHub - O git salva o histórico de edições de um código
+ > O github é um repositório online para armazenamento de códigos, vc está expondo para o mundo. 
+controle de versão
+armazenamento em nuvem
+trabalho em equipe
+melhorar o seu código
+reconhecimento
+> São sistemas de controle de versão, neste tipo de ferramenta existe um repositório que nos permite obter qualquer versão existente do nosso código
+> Sempre que desejarmos controlar a versão de um arquivo x, temos que informar que queremos rastreá-lo no repositório, e a cada mudança q queremos fazer, devemos armazenar as alterações no rep.
+>> as alterações feitas nos mesmos arquivos são mescladas de forma automática, sempre q possível <<
+´
+> Git Shell: grava mudanças locais em seu código
+Na linha de comando, permite-se inserir comandos para visualizar, alterar e gerenciar seus arquivos e pastas em um terminal simples ao invés de usar uma interface gráfica de usuário (GUI)
+GUI X CLI 
+
+	> pwd: verifica onde vc está no sistema de arquivos atual
+	> ls: lista os arquivos no diretório atual
+	> cd nome_diretorio: move-se para o nome ou caminho do 	diretório fornecido
+	> mkdir nome_diretorio: cria um novo diretorio c o nome 	escolhido
+	> git init nome-projeto: cria um arquivo.git
+	> echo "conteudo" > nomedoarquivo.txt - cria um arquivo .txt dentro do repositório
+	> git add nomedoarquivo.extensão - adciona ao staged
+	> git commit -m "" - commita os arquivos que irão p o GitHub, o -m indica mensagem,  onde vc indica oq foi feito
+	> git add: adiciona arquivos ao commit (git add. <- todos os arquivos/ git add nome_arquivo)
+	> git push: envia o commit para o github
+	 
+windows           
+- cd /- navega entre as pastas              
+- dir - lista todos os diretórios
+- mkdir - cria um diretório
+- del / rmdir - del: deleta arquivos / - rmdir
+
+tab: autocompletar
+
+>> Como o GIT funciona (por baixo dos panos)
+  >SHA1 - algorítmo de hash seguro, é um conjunto de funções hash criptográficas projetadas pela NSA. A encriptação gera conjunto de caracteres identificadores de 40 dígitos (são únicos);
+
+ex: echo "olá mundo" | openss1 sha1
+    > (stdin)= f9fc856e559b950014456135x5s45413121 (faz de conta q são 40 caracteres)
+  >Objetos fundamentais - 
+ex    echo "conteudo | git hash-object --stdin
+	4d6a111eab5a8c6c2b32fea50dd3153df8bd13ff
+ex
+    echo -e "conteudo" | openssl sha1
+        7bf12626acd706d3bb0b5241e16266d95b107c9i
+
+>> Blob (bolhas): objeto que guarda os arquivos \0 
+   >> echo "conteudo" | git hash-object --stdin
+devolveu o sha1:    7bf12626acd706d3bb0b5241e16266d95b107c9i
+   >> echo -e "conteudo" | openssl sha1
+vai gerar outro tipo de chave :4d6a111eab5a8c6c2b32fea50dd3153df8bd13ff
+Blob> possui metadados dentro dele, blocos básicos de composição
+
+>> Trees (árvores)> armazenam blobs \0, 
+>> Commits: objeto que vai juntar todos os demais, aponta para uma árvore, um commit, um autor, uma mensagem e possui um carimbo de tempo(timestaamp). (você pode montar uma linha do tempo das alterações)
+ Sistema distribuído e seguro - pois os commits não podem ser alterados, logo, gera confiança.
+
+
+///////////// CHAVES SSH E TOKENS
+
+>> Chave SSH - uma forma de estabelecer uma conexão segura e encriptada entre duas máquinas
+
+/////////// Iniciando no GIT
+
+git init - iniciar repositório
+git add - mover arquivos
+git commit - criar um commit
+
+> criando um repositório
+  markdown - uma forma + humana de escrever o html, que é o esqueleto de qualquer página da web
+
+Git init > inicializa o conceito de repositório
+
+>>> Tracked ou untracked
+tracked > arquivos rastreados pelo git, se subdivide em unmodified(não foi modificado, se removemos, ele volta para untracked)/modified(sofreu modificação e muda automaticamente de unmodified para modified)/staged(onde ficam os arquivos q estão se preparando para fazer parte de outro tipo de agrupamento, um commit e o retorna p o unmodified)
+untracked > arquivos não rastreados pelo git
+untracked > staged
+unmodified > modified > staged > commit > unmodified > se remover > untracked
+O que é um repositório? lugar onde se guarda, arquiva, coleciona algo 
+ - ambiente de desenvolvimento - (working directory; staging area; repositório local) repositório de trabalho, os arquivos sempre irão se alterando entre o rep de trab e o staged área, o repositório local só é composto por commits
+ - servidor 
+
+git status, vai mostrar o status dos arquivos
+
+>> Como acontecem os conflitos no GitHub e como resolvê-los
+ ex> um código na sua máquina, um no git e um na máquina do coleguinha, quando uma edição acontece na mesma linha em ambas as máquinas, gera um conflito. Para resolver, "antes de empurrar o código, puxe a versão que está aqui, faça as alterações, junte ambas e empurre" 
+
+Conflito de merge - quando o github tenta juntar duas alterações na mesma linha, então ele vai deixar que abra o arquivo e o resolva manualmente
+
+//////////////////////////// PROJETOS ÁGEIS COM SCRUM - Thiago Sano
+
+> Gestão de projetos Tradicional x Ágil
+  > Tradicional (waterfall): Só permite que o projeto avance quando uma fase está inteiramente completa;
+    Escopo definitivo na fase inicial do projeto
+    Projeto é controlado por fases e marcos
+    Cliente só vê o software funcionando na fase final do projeto
+    Resistência a mudanças
+  > Ágil: Software construído por partes (incremental) e cada parte executa-se em um ciclo (iterativo)
+    Escopo definido ao longo do projeto (adaptativo)
+    Projeto é controlado por funcionalidades entregues
+    Cliente pode ver parte do software funcionando na parte inicial do projeto
+    Mudanças constantes de acordo com os feedbacks contínuos
+
+(Em projetos tradicionais, você corre o risco de descobrir que estava errado depois de meses. Com o SCRUM, você descobre que estava errado em no máximo 30 dias)
+
+> Ágil é diferente de rápido.
+ - Rápidez (mudança) e desembaraço
+ - Fazer coisas complexas de forma simples
+ - Equipe comprometida com os objetivos
+ - Maior valor para o cliente
+
+> Ter capacidade de responder rapidamente a mudanças
+
+> SCRUM é um dos frameworks de gerenciamento de projetos ágeis;
+Projetos usando equipes pequenas e multidisciplinares produzem os melhores resultados
+
+PILARES:
+Transparência
+Adaptação
+Inspeção 
+ >> Conversar mais e escrever menos
+ >> Demonstrar o software constantemente aos usuários e obter feedbacks constantes
+ >> Requisitos mudam ao longo do tempo
+ >> Aprender progressivamente com o uso do software
+
+>>> Papéis e responsabilidades
+
+PRODUCT OWNER(PO) - representa a área de negócios, é uma única pessoa, define as funcionalidades do software (product backlog), prioriza as funcionalidades de acordo com o valor do negócio, garante que o time de desenvolvimento entenda os itens do backlog no nível necessário
+
+SCRUM MASTER (SM) - garante o uso correto do scrum, não é gerente de projetos, age como facilitador, auxilia o PO no planejamento e estimativas do backlog, auxilia a equipe a remover impedimentos, treina o time em autogerenciamento e interdisciplinaridade.
+
+TIME DEV - possui habilidades para desenvolver, testar, criar e desenhar, ou seja, tudo oq for necessário para entregar o software funcionando
+
+>>> Cerimônias do SCRUM
+
+Time box - Tempo máximo para fazer uma cerimonia ou todo o desenvolvimento em uma sprint 
+
+SPRINT - Corrida, arrancada / É o principal evento do SCRUM 
+	Composição:
+ Planejamento da Sprint - oque fazer? como fazer?
+ Reuniões diárias (Daily Meeting)
+ Revisão da Sprint (review)
+ Retrospectiva da sprint
+
+FUNDAMENTOS DE UM PROJETO ÁGIL - Diego A. S. Pereira
+
+PO - representa o profissional que possui a visão doq será desenvolviso, as necessidades a serem atendidas, o público que vai utilizar os serviços e os objetivos a serem alcançados
+
+Refining e Planning 
+
+Release Planning - Liberação ou lançamento de software, é o lançamento de nova versão oficial de produto de software. Cada vez que um produto de software é criado ou modificado, o fabricante e seus desenvolvedores decidem sobre como distribuir ou o novo produto ou a modificação às pessoas que o utilizam 
+  > Release planning de múltiplas squads - vários times de desenvolvimento agrupados fazendo coisas distintas, que serão agrupadas no final da spring
+  > Release planning de projeto - 
+
+ANALISANDO ESCOPO E DEFININDO PRIORIDADES
+Transformação digital - processo no qual as empresas fazem uso da tecnologia para melhorar o desempenho, aumentar o alcance e garantir resultados melhores / Mudança estrutural nas organizações dando um papel essencial para a tecnologia
+
+
+

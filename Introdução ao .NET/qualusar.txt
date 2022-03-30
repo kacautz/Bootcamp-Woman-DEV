@@ -1,0 +1,14 @@
+.NET X .NET FRAMEWORK: Qual escolher?
+
+Use .NET quando:
+ Necessitar de plataforma cruzada
+ Há direcionamento de microsserviços
+ Uso de Docker 
+ Alto desempenho e sistemas escalonáveis
+
+Use .NET Framework quando:
+ Não houver necessidade de migração para .NET
+ Bibliotecas de terceiras ou pacotes NUGET não são disponíveis para .NET
+ Necessidade de tecnologias não disponíveis para .NET
+ 
+O que usar para cada tipo de aplicação?

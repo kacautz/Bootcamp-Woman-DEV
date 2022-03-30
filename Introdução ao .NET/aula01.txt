@@ -60,6 +60,72 @@ ASP.NET Core
 	Framework para construir apps do lado do cliente, que são executados direto 	no navegado com WASM usando C#
 	Uso da interoperabilidade com Javascript p lidar com manipulação da DOM e 	chamadas de API
 
+XAMARIN
+  Plataforma para desenvolvimento de apps mobile modernas com alto desempenho
+  baseado no projeto Mono, implementação open source baseada no .NET Framework
+  criação de interface nativa em cada plataforma (Android, IOS, MacOS e Windows apps) e código de lógica compartilhado
+  possui todos os benefícios já citados na plataforma .NET
+
+XAMARIN.FORMS - Framework open source p desenvolvimento de interfaces para o usuário
+
+Apps androids, ios e windows c uma única base de códico
+criação de UI com XAML (extensible applications markup language) e lógica com C#
+Uso de biblioteca xamarin.essentials
+ informações de dispositivos
+ sistemas de arquivos
+ acelerômetro
+ bloqueio de tela
+
+XAMARIN.ANDROID
+
+Compilação de C# para LI (linguagem intermediária), que por sua vez é compilado parra assembly nativo no momento da execução
+executado no ambiente mono + ART
+
+XAMARIN.IOS
+
+Compilação total de C# para código assembly nativo
+executado no ambiente mono + AOT (ahead of time)
+restrição de segurança: sem permissão para execução de código gerado dinamicamente
+
+
+.NET FRAMEWORK
+ componentes: Commom language runtime + .NET Class Library
+             gerenciamento de execução      Biblioteca para reutilização
+              dos apps                         de códigos
+
+Cada linguagem tem seu próprio compilador, que irá traduzir para uma linguagem de máquina. No .NET, vai traduzir o código de alto nível p uma linguagem de máquina, o CLR vai fazer tradução para o código de máquina
+
+Características
+  gerenciamento de memória
+  sistema de tipos comuns > definidos pelo próprio framework
+  grande e específicas bibliotecas de classes utilitárias (asp.net, ado.net, WCF, WPF)
+  Interoperabilidade entre linguagens
+  compatibilidade de versões
+  uso do .net standard 
+
+ENTENDENDO .NET E .NET CORE
+
+
+O QUE É ESCREVER UM BOM CÓDIGO? 
+
+precisa ser confiável
+precisa ser sustentável a longo prazo
+precisa ser eficiencia (as vezes a eficiencia e desempenho pode comprometer a confiabilidade e facilidade) (A eficiencia e desempenho só devem vir em primeiro lugar quando isso for um requisito daquela aplicação, se não for, mantenha o mais simples possível)
+
+Pq e como devemos padronizar?
+ melhorar a comunicação
+ facilitar a manutenção dos códigos
+ utilizar documentação e boas práticas de codificação, como clean code
+ 
+CLEAN CODE - Conjunto de boas práticas na escrita de software para obtenção de maior legibilidade e manutenibilidade de código
+
+REGRAS GERAIS
+ 1 Siga sempre as convenções adotadas pela equipe
+ 2 KISS: Keep It Stupid Simple (mantenha isto estupidamente simples)
+ 3 devolva o código sempre mais limpo do que vc encontrou
+ 4 busque sempre entender e solucionar os problemas a partir de sua raiz
+
+REGRAS PARA ENTENDIMENTO DE CÓDIGO
 >> Lucas Neves
 
 Diferenças entre .NET Framework, Core e 5.0

@@ -5,4 +5,14 @@ INTRODUÇÃO AO HTTP/HTTPS - JULIANA MASCARENHAS
  Protocolo de comunicação - rege e estrutura as mensagens
  Browser - Implementa o cliente HTTP
  Servidor - Host objetos web
+> O cliente envia mensagens do tipo Request HTTP 
+> O servidor responde com mensagens do tipo Response HTTP
+> Protocolo TCP - protocolo da camada de transporte, opera de duas maneiras:
+conexão persistente: uma vez q estabeleço a conexão, ela será mantida, até que ocorra um pedido específico de finalização
+conexão não persistente: a cada envio de mensagem, essa conexão é encerrada
+Utiliza a arquitetura client-server - segmenta os papéis
+Stateless - o servidor não armazena o estado do cliente, apenas responde com os dados que o cliente solicitou 
+
+- Tipos Request e Response
+
  
